@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Rubik', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+main {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#phone {
+    width: 300px;
+    height: 550px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.app-screen {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.nudge {
+    z-index: 1;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+}
+
+.app-screen header {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, #e942ff, #8838ff);
+    padding: 30px 15px 10px;
+    gap: 10px;
+    color: white;
+}
+
+.app-screen header button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.app-screen header #option-btn {
+    margin-left: auto;
+}
+
+.app-screen .details h3 {
+    font-size: 16px;
+}
+
+.app-screen .details p {
+    font-size: 10px;
+}
+
+.app-screen header figure {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.app-screen header figure img {
+    width: 100%;
+}
+
+.chat-area {
+    position: absolute;
+    bottom: 15px;
+    width: 90%;
+    left: 5%;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #ddd;
+    display: flex;
+    overflow: hidden;
+}
+
+.chat-area input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.chat-area button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    align-self: center;
+    margin-right: 10px;
+    background-color: #3e2753;
+    color: #fff;
+    cursor: pointer;
+}
+
+.capsule, .capsule-2 {
+    position: absolute;
+}
