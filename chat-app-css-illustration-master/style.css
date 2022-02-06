@@ -319,3 +319,24 @@ section #sender-two .ad-2 p + p {
 .capsule, .capsule-2 {
     position: absolute;
 }
+
+.capsule {
+  top: 0px;
+  left: 0px;
+  /* margin-left: -119px; */
+  width: 376.53px;
+  height: 573px;
+  border-bottom-right-radius: 338px;
+  /* border-bottom-left-radius: 200px; */
+  background-image: linear-gradient(to top, #8838ff, #e942ff);
+}
+
+.capsule-2 {
+    bottom: 0px;
+  right: 0px;
+  width: 353px;
+  height: 573px;
+  border-top-left-radius: 338px;
+  /* border-top-right-radius: 200px; */
+  background-image: linear-gradient(to top left, #8838ff15, #e942ff0b);
+}
