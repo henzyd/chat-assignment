@@ -29,7 +29,7 @@ main {
     background-color: #fff;
     box-shadow: 0 0 15px #ccc;
     border-radius: 35px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .app-screen {
@@ -56,8 +56,8 @@ main {
 .app-screen header {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to left, #e942ff, #8838ff);
-    padding: 30px 15px 10px;
+    background-image: linear-gradient(to right, #e942ff, #8838ff);
+    padding: 30px 15px 6px;
     gap: 10px;
     color: white;
 }
@@ -136,6 +136,7 @@ section #sender {
     position: relative;
     font-size: 12px;
     right: 1px;
+    top: -4px;
 }
 
 section #sender .first-sent {
@@ -144,7 +145,9 @@ section #sender .first-sent {
     background-color: rgb(224, 219, 226);
     padding: 10px;
     width: 142px;
-    border-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 section #sender .second-sent {
@@ -154,7 +157,9 @@ section #sender .second-sent {
     width: 185px;
     box-sizing: content-box;
     background-color: rgb(224, 219, 226);
-    border-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     padding: 10px;
 }
 
@@ -163,6 +168,7 @@ section #receiver {
     margin-top: 110px;
     font-size: 12px;
     position: relative;
+    top: -11px;
 }
 
 section #receiver .pictures {
@@ -209,12 +215,14 @@ section #receiver .first-receive {
     color: #000;
     box-sizing: content-box;
     width: 165px;
-    border-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     padding: 10px;
     position: relative;
     bottom: 13px ;
     right: -36.2px;
-    /* box-shadow: 3px; */
+    box-shadow: 0 4px 13px #ccc;
 }
 
 section #receiver .second-receive {
@@ -222,12 +230,90 @@ section #receiver .second-receive {
     color: #000;
     box-sizing: content-box;
     width: 97px;
-    border-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     padding: 10px;
     position: relative;
     bottom: 8px;
     right: -104px;
-    /* box-shadow: 3px; */
+    box-shadow: 0 4px 13px #ccc;
+}
+
+section #sender-two {
+    margin-top: -11px;
+}
+
+section #sender-two .para {
+    color: hsl(276, 55%, 52%);
+    position: relative;
+    top: -10px;
+    width: 185px;
+    box-sizing: content-box;
+    background-color: rgb(224, 219, 226);
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    padding: 10px;
+    font-size: 12px
+}
+
+section #sender-two .ad-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4px;
+    background-image: linear-gradient(to right, #e942ff, #8838ff);
+    color: white;
+    padding: 9px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    font-size: 12px;
+}
+
+section #sender-two .ad-1 figure {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ca24e0;
+    border-radius: 50%;
+}
+
+section #sender-two .ad-1 p + p {
+    font-size: 17px;
+}
+
+section #sender-two .ad-1 figure + p {
+    margin-right: 30px;
+}
+
+section #sender-two .ad-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #e942ff, #8838ff);
+    color: white;
+    padding: 9px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+section #sender-two .ad-2 figure {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ca24e0;
+    border-radius: 50%;
+}
+
+section #sender-two .ad-2 figure + p {
+    margin-right: 54px;
+}
+
+section #sender-two .ad-2 p + p {
+    font-size: 17px;
 }
 
 .capsule, .capsule-2 {
