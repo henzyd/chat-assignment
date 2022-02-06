@@ -124,6 +124,112 @@ main {
     cursor: pointer;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px;
+    gap: 10px;
+}
+
+section #sender {
+    position: relative;
+    font-size: 12px;
+    right: 1px;
+}
+
+section #sender .first-sent {
+    color: hsl(276, 55%, 52%);
+    box-sizing: content-box;
+    background-color: rgb(224, 219, 226);
+    padding: 10px;
+    width: 142px;
+    border-radius: 14px;
+}
+
+section #sender .second-sent {
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 53px;
+    width: 185px;
+    box-sizing: content-box;
+    background-color: rgb(224, 219, 226);
+    border-radius: 14px;
+    padding: 10px;
+}
+
+section #receiver {
+    margin-left: 30px;
+    margin-top: 110px;
+    font-size: 12px;
+    position: relative;
+}
+
+section #receiver .pictures {
+    position: absolute;
+    left: 59.39999999999998px;
+    top: -54px;
+}
+
+section #receiver figure:nth-child(1) {
+    width: 33px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    /* top: 50%; */
+    left: 55px;
+    border-radius: 8px
+}
+
+section #receiver figure:nth-child(2) {
+    width: 33px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    /* top: 50%; */
+    left: 92px;
+    border-radius: 8px
+}
+
+section #receiver figure:nth-child(3) {
+    width: 33px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    /* top: 50%; */
+    left: 128.9px;
+    border-radius: 8px  
+}
+
+section #receiver .first-receive {
+    background-color: #fff;
+    color: #000;
+    box-sizing: content-box;
+    width: 165px;
+    border-radius: 14px;
+    padding: 10px;
+    position: relative;
+    bottom: 13px ;
+    right: -36.2px;
+    /* box-shadow: 3px; */
+}
+
+section #receiver .second-receive {
+    background-color: #fff;
+    color: #000;
+    box-sizing: content-box;
+    width: 97px;
+    border-radius: 14px;
+    padding: 10px;
+    position: relative;
+    bottom: 8px;
+    right: -104px;
+    /* box-shadow: 3px; */
+}
+
 .capsule, .capsule-2 {
     position: absolute;
 }
